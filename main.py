@@ -1,4 +1,5 @@
 """
+July 15 2018
 Sadik Erisen
 Data structure practice - 1
 
@@ -43,11 +44,11 @@ def search_func(arr, item):
 #main loop
 def main():
     filtered = remove_duplicates(finaldata)
-    print('please enter a number : \n')
+    print('please enter a number : \n\n')
     search = input()
     target  = get_user_input(search)
     traverse = search_func(filtered, target)
-    print(traverse ,"Found ! \t", filtered)
+    print traverse ,"Found ! \t", filtered
 
 
 
