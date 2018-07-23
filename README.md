@@ -1,4 +1,4 @@
-# datastructure
+# Datastructure
 Introduction to Data Structure with Python
 
 # Week 1
